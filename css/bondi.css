@@ -1,0 +1,126 @@
+body{
+    font-family: f;
+    height: 10000px;
+}
+:root{
+    --extra-dark:#190119;
+    --light-color:#E0B7B3;
+    --med-color:#834E6A;
+    --blue-color:#2A104D;
+}
+.navbar{
+    background-color: var(--extra-dark);
+color: #E0B7B3;
+}
+.navbar-toggler
+{
+    background-color: #E0B7B3;
+}
+.navbar-toggler:hover
+{
+    background-color: #834E6A;
+}
+   .nav-item
+   {
+    font-size: x-large;
+    font-family:f;
+   }
+   .navbar-brand
+   {
+    font-size: x-large;
+
+    color: #E0B7B3;
+    font-family:f;
+   }
+   .navbar-brand:hover
+   {
+    color: #834E6A;
+   }
+   
+   .navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover {
+  color:#834E6A;
+}
+.btn-primary:hover {
+    color:#E0B7B3;
+    background-color: green;
+}
+.btn-primary:focus
+{
+    background: linear-gradient(15deg, #190119, #2A104D, #E0B7B3);
+}
+.btn-primary {
+    font-family:f ;
+    font-size: large;
+    color:#190119;
+    background: linear-gradient(15deg, #190119, #2A104D, #E0B7B3);
+    border: #190119;
+}
+
+.nav-link {/*home / tool about ...*/
+    color: #E0B7B3;
+}
+.navbar .serch 
+{
+    border-left: 1px solid #E0B7B3;
+}
+.navbar .navbar-toggler {
+    color: whitesmoke;
+    font-size: 25px;
+    border-color:#E0B7B3 ;
+    border-radius: 15px;
+
+}
+.landing{
+    
+    border-radius: 10px;
+    border: #2A104D;
+    color: var(--light-color);
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    font-size: 3.5rem;
+        font-weight: 700;
+        line-height: 1.2;
+        margin-bottom: 1.5rem;
+        text-shadow: 0 4px 30px rgba(0, 0, 0, 0.7); /* تحسين وضوح النص */
+        background: linear-gradient(15deg, #190119, #2A104D, #E0B7B3);
+        -webkit-background-clip: text;
+}
+.particles{
+    position: fixed;
+    z-index: 0;
+    background-color: var(--med-color);
+
+}
+
+.cta-button {
+    margin-top: 2.5rem;
+    padding: 1rem 2.8rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: linear-gradient(15deg, #190119, #2A104D, #E0B7B3);
+    border: none;
+    border-radius: 50px;
+    color: white;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 5px 15px rgba(107, 124, 255, 0.3);
+  }
+
+  .cta-button:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 15px 35px rgba(78, 10, 204, 0.5);
+    background: linear-gradient(15deg, #190119, #E0B7B3, #2A104D);
+}
+
+  
+  
+    
+    
+    
+  
+
+  
+  
