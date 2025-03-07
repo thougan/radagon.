@@ -11,9 +11,9 @@ class Particle {
         this.x = Math.random() * canvas.width;
         this.y = Math.random() * canvas.height;
         this.size = Math.random() * 5 + 1;
-        this.speedX = Math.random() * 1 - 0.5;
-        this.speedY = Math.random() * 1 - 0.5;
-        this.opacity = Math.random() * 1 + 0.2;
+        this.speedX = Math.random() * 10 - 0.5;
+        this.speedY = Math.random() * 10 - 0.5;
+        this.opacity = Math.random() * 1000 + 0.2;
     }
 
     update() {
@@ -62,7 +62,20 @@ animate();
 
 
 
-
+  // Optional: Add interaction
+  document.addEventListener('DOMContentLoaded', () => {
+    const track = document.querySelector('.color-track');
+    
+    // Pause animation on hover
+    track.addEventListener('mouseenter', () => {
+        track.style.animationPlayState = 'paused';
+    });
+    
+    // Resume animation on mouse leave
+    track.addEventListener('mouseleave', () => {
+        track.style.animationPlayState = 'running';
+    });
+});
 
 
 

@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
+
+span{
+
+	font-family: 'Raleway', sans-serif;
+}
+
+span{
+  
+  transform: translate(-50%, -50%);
+	letter-spacing:0.1em;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: rgb(175, 137, 137);
+  text-shadow: 
+8px 8px #E0B7B3,
+20px 20px #000000;
+}
+.row{
+  width: 100%;
+}
+
+.col
+{
+position: relative;
+background-color: #2A104D;
+height: 480px;
+margin: 5px;
+text-align: center;
+transition: all .5s;
+overflow: hidden;
+flex: 1;
+
+
+}
+.col:hover{
+  flex:8;
+}
+.card
+{
+  background: none
+  wit;
+}
